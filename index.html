@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typing Speed Test | Check your typing skill</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- body -->
+  <body>
+    <p class="sub-p">Typing Speed Test</p>
+    <!-- <h1>give it a try to your writing with small steps!</h1> -->
+    <h1>Attempt writing in small steps.</h1>
+    <div id="result-box">
+      <div class="timer-box">
+        <p id="timer">60</p>
+        <span>Second</span>
+      </div>
+      <div id="text-box">
+        <p>Typing Speed: <span id="speed"></span> WPM</p>
+        <p>Accuracy: <span id="accuracy"></span>%</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="typing-area">
+        <p id="sentence"></p>
+        <input type="text" id="input" disabled />
+        <button id="start-btn">Start Test</button>
+      </div>
+
+      <div id="result">
+        <button id="retry-btn">Retry Test</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
